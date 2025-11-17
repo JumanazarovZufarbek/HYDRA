@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/all.min.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<script>
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        }
+    }
+});
+</script>
+
+
+<body class="bg-[#343045]">
+
+
+    <!-- header start -->
+
+    <header class="max-w-[1280px] w-[100%] m-auto">
+
+        <!-- nav start -->
+
+        <nav class="mt-[50px]">
+            <div class="flex justify-between items-center">
+                <div class="flex gap-[15px]">
+                    <img src="./public/logo.svg" alt="">
+                    <img src="./public/hydra text.svg" alt="">
+                </div>
+                <div class="flex gap-[42px]">
+                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">ABOUT</a>
+                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">SERVICES</a>
+                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">TECHNOLOGIES</a>
+                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">HOW TO</a>
+                </div>
+                <div class="flex gap-[38px]">
+                    <a href="#!"
+                        class="font-[Montserrat] text-[12px] text-white font-bold border-2 border-white pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">CONTACT
+                        US</a>
+                    <a href="#!"
+                        class="font-[Montserrat] text-[12px] text-[#343045] font-bold bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">JOIN
+                        HYDRA</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav end -->
+
+        <!-- header about start -->
+
+        <div class="mt-[98px] flex justify-between">
+
+            <div class="mt-[48px]">
+                <h1 class="font-[Montserrat] text-[46px] text-white"><span
+                        class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Dive</span>
+                    Into The Depths</h1>
+                <h1 class="font-[Montserrat] text-[40px] text-white">Of <span
+                        class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Virtual
+                        Reality</span></h1>
+                <p
+                    class="font-[Montserrat regular] text-[16px] w-[450px] h-[72px] text-[#C0B7E8] mt-[36px] font-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    nisl tincidunt eget. Lectus mauris eros in vitae.</p>
+                <div class="mt-[66px] flex items-center gap-[40px]">
+                    <a href=""
+                        class="font-[Montserrat] text-[12px] text-[#343045] font-bold bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">BUILD
+                        YOUR WORLD</a>
+                    <i class="fal fa-arrow-right fa-3x text-[#C0B7E8]"></i>
+                </div>
+            </div>
+
+            <div>
+                <img src="./public/header_img.svg" alt=""
+                    class="rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[240px] bg-black/20 pt-[14px] pr-[18px] pb-[15px] pl-[16px]">
+            </div>
+
+        </div>
+
+        <div
+            class="mt-[88px] bg-[radial-gradient(50%_2900.76%_at_50%_53.89%,rgba(58,52,86,0.95)_0%,#211E2E_100%)] pt-[26px] pr-[80px] pb-[24px] pl-[39px] rounded-[90px] flex justify-between">
+            <div class="flex items-center gap-[15px]">
+                <i class="far fa-map-marker-alt fa-3x text-[#C0B7E8]"></i>
+                <div>
+                    <span class="font-[Montserrat] text-[24px] text-white">Pay Us a Visit</span>
+                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Union St, Seattle, WA 98101, United
+                        States</p>
+                </div>
+                <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
+            </div>
+
+            <div class="flex items-center gap-[15px]">
+                <i class="far fa-phone-alt fa-3x text-[#C0B7E8]"></i>
+                <div>
+                    <span class="font-[Montserrat] text-[24px] text-white">Give Us a Call</span>
+                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">(110) 1111-1010</p>
+                </div>
+                <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
+            </div>
+
+            <div class="flex items-center gap-[15px]">
+                <i class="far fa-envelope fa-3x text-[#C0B7E8]"></i>
+                <div>
+                    <span class="font-[Montserrat] text-[24px] text-white">Send Us a Message</span>
+                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Contact@HydraVTech.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- header about end -->
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
+
+    <main class="max-w-[1280px] w-[100%] m-auto">
+        <div class="mt-[90px]">
+            <div>
+                <div class="flex justify-between">
+                    <div>
+                        <h1 class="text-[36px] text-white font-[Montserrat]">INTRODUCTION</h1>
+                        <div class="flex gap-[30px] items-center mt-[-20px]">
+                            <h1 class="text-[36px] font-[Montserrat regular] text-[#C0B7E8]">TO HYDRA VR</h1>
+                            <img src="./public/long strelka.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="font-[Montserrat regular] text-[16px] text-[#C0B7E8] w-[652px] h-[98px]">Vitae sapien
+                            pellentesque habitant morbi tristique senectus et netus et. Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-between mt-[97px]">
+                    <div>
+                        <img src="./public/main__img1.svg" alt=""
+                            class="rounded-tl-[220px] rounded-br-[220px] rounded-tr-[100px] rounded-bl-[100px]">
+                    </div>
+                    <div class="mt-[50px]">
+                        <div>
+                            <h1 class="text-[36px] text-white font-[Montserrat]">ABOUT</h1>
+                            <h1 class="text-[36px] font-[Montserrat regular] text-[#C0B7E8]">HYDRA VR</h1>
+                        </div>
+                        <p class="w-[630px] h-[228px] font-[Montserrat regular] text-[16px] text-[#C0B7E8] mt-[42px]">
+                            Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus
+                            urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida
+                            dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in.
+                            Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet
+                            sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam
+                            etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet
+                            cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
+                            retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
+                            n tempor.</p>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="mt-[111px] flex justify-between">
+                    <div>
+                        <h1 class="text-[36px] text-white font-[Montserrat]">WHY BUILD</h1>
+                        <div class="flex items-center gap-[16px]">
+                            <h1 class="text-[36px] font-[Montserrat regular] text-[#C0B7E8]">WITH HYDRA?</h1>
+                            <img src="./public/long strelka.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mt-[20px]">
+                        <p class="w-[652px] h-[98px] text-[#C0B7E8] text-[16px] font-[Montserrat regular]">Vitae sapien
+                            pellentesque habitant morbi tristique senectus et netus et. Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    </div>
+                </div>
+
+                <!-- main card start -->
+
+                <div class="mt-[102px] flex justify-between card-slider">
+
+                    <div class="flex flex-col items-center bg-[radial-gradient(50%_50%_at_50%_50%,_#433D60_0%,_#211E2E_100%)] 
+        p-[15px] w-fit mx-auto rounded-[20px] card-item">
+                        <img src="./public/card_img1.svg" alt="" class="bg-black/20 rounded-full p-3">
+
+                        <h3 class="mt-[21px] font-[Montserrat] text-[24px] text-white text-center">
+                            SIMULATION
+                        </h3>
+
+                        <div class="mt-[18px] border-[1px] border-[#C0B7E854] w-[154px]"></div>
+
+                        <p class="mt-[22px] w-[250px] h-[57px] font-[Montserrat regular] text-[#C0B7E854] text-center">
+                            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+
+                        <a href="" class="inline-block mt-[75px] font-[Montserrat] text-[12px] text-[#343045] font-bold 
+            bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] py-[17px] px-[35px] rounded-[40px] card-button">
+                            TRY IT NOW
+                        </a>
+                    </div>
+
+                    <div class="flex flex-col items-center bg-[radial-gradient(50%_50%_at_50%_50%,_#433D60_0%,_#211E2E_100%)] 
+        p-[15px] w-fit mx-auto rounded-[20px] card-item">
+                        <img src="./public/card_img2.svg" alt="" class="bg-black/20 rounded-full p-3">
+
+                        <h3 class="mt-[21px] font-[Montserrat] text-[24px] text-white text-center">
+                            EDUCATION
+                        </h3>
+
+                        <div class="mt-[18px] border-[1px] border-[#C0B7E854] w-[154px]"></div>
+
+                        <p class="mt-[22px] w-[250px] h-[57px] font-[Montserrat regular] text-[#C0B7E854] text-center">
+                            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+
+                        <a href="" class="inline-block mt-[75px] font-[Montserrat] text-[12px] text-[#343045] font-bold 
+            bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] py-[17px] px-[35px] rounded-[40px] card-button">
+                            TRY IT NOW
+                        </a>
+                    </div>
+
+                    <div class="flex flex-col items-center bg-[radial-gradient(50%_50%_at_50%_50%,_#433D60_0%,_#211E2E_100%)] 
+        p-[15px] w-fit mx-auto rounded-[20px] card-item">
+                        <img src="./public/card_img3.svg" alt="" class="bg-black/20 rounded-full p-3">
+
+                        <h3 class="mt-[21px] font-[Montserrat] text-[24px] text-white text-center">
+                            SELF-CARE
+                        </h3>
+
+                        <div class="mt-[18px] border-[1px] border-[#C0B7E854] w-[154px]"></div>
+
+                        <p class="mt-[22px] w-[250px] h-[57px] font-[Montserrat regular] text-[#C0B7E854] text-center">
+                            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+
+                        <a href="" class="inline-block mt-[75px] font-[Montserrat] text-[12px] text-[#343045] font-bold 
+            bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] py-[17px] px-[35px] rounded-[40px] card-button">
+                            TRY IT NOW
+                        </a>
+                    </div>
+
+                    <div class="flex flex-col items-center bg-[radial-gradient(50%_50%_at_50%_50%,_#433D60_0%,_#211E2E_100%)] 
+        p-[15px] w-fit mx-auto rounded-[20px] card-item">
+                        <img src="./public/card_img4.svg" alt="" class="bg-black/20 rounded-full p-3">
+
+                        <h3 class="mt-[21px] font-[Montserrat] text-[24px] text-white text-center">
+                            OUTDOOR
+                        </h3>
+
+                        <div class="mt-[18px] border-[1px] border-[#C0B7E854] w-[154px]"></div>
+
+                        <p class="mt-[22px] w-[250px] h-[57px] font-[Montserrat regular] text-[#C0B7E854] text-center">
+                            Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+
+                        <a href="" class="inline-block mt-[75px] font-[Montserrat] text-[12px] text-[#343045] font-bold 
+            bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] py-[17px] px-[35px] rounded-[40px] card-button">
+                            TRY IT NOW
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- main card end -->
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- main end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
