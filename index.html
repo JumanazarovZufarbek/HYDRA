@@ -19,19 +19,20 @@
 
         <!-- nav start -->
 
-        <nav class="mt-[50px]">
+        <nav class="mt-[50px] lg:px-0 px-[15px]">
             <div class="flex justify-between items-center">
-                <div class="flex gap-[15px]">
-                    <img src="./public/logo.svg" alt="">
-                    <img src="./public/hydra text.svg" alt="">
+                <div class="flex lg:gap-[15px] gap-[7px] items-center">
+                    <img src="./public/logo.svg" alt="" class="lg:w-[102px] lg:h-[103px] w-[52px] h-[53px]">
+                    <img src="./public/hydra text.svg" alt="" class="lg:w-[76px] lg:h-[46px] w-[56px] h-[26px]">
                 </div>
-                <div class="flex gap-[42px]">
-                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">ABOUT</a>
-                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">SERVICES</a>
-                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">TECHNOLOGIES</a>
-                    <a href="#!" class="font-[Montserrat] text-[12px] text-white font-bold">HOW TO</a>
+                <div class="flex lg:gap-[42px] gap-[15px]">
+                    <a href="#!" class="font-[Montserrat] text-[7px] text-white font-bold lg:text-[12px]">ABOUT</a>
+                    <a href="#!" class="font-[Montserrat] text-[7px] text-white font-bold lg:text-[12px]">SERVICES</a>
+                    <a href="#!"
+                        class="font-[Montserrat] text-[7px] text-white font-bold lg:text-[12px]">TECHNOLOGIES</a>
+                    <a href="#!" class="font-[Montserrat] text-[7px] text-white font-bold lg:text-[12px]">HOW TO</a>
                 </div>
-                <div class="flex gap-[38px]">
+                <div class="flex gap-[38px] hidden lg:block">
                     <a href="#!"
                         class="font-[Montserrat] text-[12px] text-white font-bold border-2 border-white pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">CONTACT
                         US</a>
@@ -46,62 +47,70 @@
 
         <!-- header about start -->
 
-        <div class="mt-[98px] flex justify-between">
+        <div class="lg:px-0 px-[15px]">
 
-            <div class="mt-[48px]">
-                <h1 class="font-[Montserrat] text-[46px] text-white"><span
-                        class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Dive</span>
-                    Into The Depths</h1>
-                <h1 class="font-[Montserrat] text-[40px] text-white">Of <span
-                        class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Virtual
-                        Reality</span></h1>
-                <p
-                    class="font-[Montserrat regular] text-[16px] w-[450px] h-[72px] text-[#C0B7E8] mt-[36px] font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    nisl tincidunt eget. Lectus mauris eros in vitae.</p>
-                <div class="mt-[66px] flex items-center gap-[40px]">
-                    <a href=""
-                        class="font-[Montserrat] text-[12px] text-[#343045] font-bold bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">BUILD
-                        YOUR WORLD</a>
-                    <i class="fal fa-arrow-right fa-3x text-[#C0B7E8]"></i>
+            <div class="mt-[98px] flex flex-col lg:flex-row lg:justify-between">
+
+                <div class="mt-[15px] lg:order-1 order-2 flex flex-col lg:items-start items-center">
+                    <h1 class="font-[Montserrat] lg:text-[46px] text-white text-[28px] mt-[25px]"><span
+                            class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Dive</span>
+                        Into The Depths</h1>
+                    <h1 class="font-[Montserrat] lg:text-[40px] text-white text-[24px]">Of <span
+                            class="bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] bg-clip-text text-transparent">Virtual
+                            Reality</span></h1>
+                    <p
+                        class="font-[Montserrat regular] text-[16px] w-[450px] h-[72px] text-[#C0B7E8] mt-[36px] font-normal hidden lg:block">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        nisl tincidunt eget. Lectus mauris eros in vitae.</p>
+                    <div class="lg:mt-[66px] flex items-center gap-[40px] p-4 mt-[30px]">
+                        <a href=""
+                            class="font-[Montserrat] text-[12px] text-[#343045] font-bold bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] pt-[17px] pr-[35px] pb-[17px] pl-[35px] rounded-[40px]">BUILD
+                            YOUR WORLD</a>
+                        <div class="hidden lg:block">
+                            <i class="fal fa-arrow-right fa-3x text-[#C0B7E8]"></i>
+                        </div>
+
+                    </div>
                 </div>
+
+                <div class="order-1 lg:order-2">
+                    <img src="./public/header_img.svg" alt=""
+                        class="rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[240px] bg-black/20 pt-[14px] pr-[18px] pb-[15px] pl-[16px] w-[318px] h-[277px] lg:w-[490px] lg:h-[426px]">
+                </div>
+
             </div>
 
-            <div>
-                <img src="./public/header_img.svg" alt=""
-                    class="rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[240px] bg-black/20 pt-[14px] pr-[18px] pb-[15px] pl-[16px]">
-            </div>
-
-        </div>
-
-        <div
-            class="mt-[88px] bg-[radial-gradient(50%_2900.76%_at_50%_53.89%,rgba(58,52,86,0.95)_0%,#211E2E_100%)] pt-[26px] pr-[80px] pb-[24px] pl-[39px] rounded-[90px] flex justify-between">
-            <div class="flex items-center gap-[15px]">
-                <i class="far fa-map-marker-alt fa-3x text-[#C0B7E8]"></i>
-                <div>
-                    <span class="font-[Montserrat] text-[24px] text-white">Pay Us a Visit</span>
-                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Union St, Seattle, WA 98101, United
-                        States</p>
+            <div
+                class="mt-[88px] bg-[radial-gradient(50%_2900.76%_at_50%_53.89%,rgba(58,52,86,0.95)_0%,#211E2E_100%)] pt-[26px] pr-[80px] pb-[24px] pl-[39px] rounded-[90px] flex justify-between">
+                <div class="flex items-center gap-[15px]">
+                    <i class="far fa-map-marker-alt fa-3x text-[#C0B7E8]"></i>
+                    <div>
+                        <span class="font-[Montserrat] text-[24px] text-white">Pay Us a Visit</span>
+                        <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Union St, Seattle, WA 98101,
+                            United
+                            States</p>
+                    </div>
+                    <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
                 </div>
-                <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
-            </div>
 
-            <div class="flex items-center gap-[15px]">
-                <i class="far fa-phone-alt fa-3x text-[#C0B7E8]"></i>
-                <div>
-                    <span class="font-[Montserrat] text-[24px] text-white">Give Us a Call</span>
-                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">(110) 1111-1010</p>
+                <div class="flex items-center gap-[15px]">
+                    <i class="far fa-phone-alt fa-3x text-[#C0B7E8]"></i>
+                    <div>
+                        <span class="font-[Montserrat] text-[24px] text-white">Give Us a Call</span>
+                        <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">(110) 1111-1010</p>
+                    </div>
+                    <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
                 </div>
-                <div class="border-[1px] h-[116px] border-[#C0B7E854] ml-[42px]"></div>
-            </div>
 
-            <div class="flex items-center gap-[15px]">
-                <i class="far fa-envelope fa-3x text-[#C0B7E8]"></i>
-                <div>
-                    <span class="font-[Montserrat] text-[24px] text-white">Send Us a Message</span>
-                    <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Contact@HydraVTech.com</p>
+                <div class="flex items-center gap-[15px]">
+                    <i class="far fa-envelope fa-3x text-[#C0B7E8]"></i>
+                    <div>
+                        <span class="font-[Montserrat] text-[24px] text-white">Send Us a Message</span>
+                        <p class="font-[Montserrat regular] text-[14px] text-[#C0B7E8]">Contact@HydraVTech.com</p>
+                    </div>
                 </div>
+
             </div>
 
         </div>
